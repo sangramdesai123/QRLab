@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/book_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Book name"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_id"
+        android:text="genrate"
+        android:layout_centerInParent="true"
+        />
+    <ImageView
+        android:id="@+id/qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>
