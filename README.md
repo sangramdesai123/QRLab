@@ -6,4 +6,6 @@
 
 3. Show status of all books
 
-4. Add book ot user account
+4. Add book to user account
+
+5. Store it to firebase
